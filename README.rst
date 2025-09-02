@@ -37,8 +37,37 @@ django-sentry-auto-setup
     Handsfree setup of your Django project inside of Sentry!
 
 
-A longer description of your project goes here...
+Tired of setting up Sentry by hand? Me too! So here is a little package that
+quickly sets up a Django project automatically.
 
+Install
+=======
+
+::
+
+    pip install django-sentry-auto-setup
+
+
+Configure
+=========
+
+Set these values in your environment or your Django settings file:
+
+::
+
+    SENTRY_AUTH_TOKEN
+    SENTRY_ENABLE_AUTO_SETUP
+    SENTRY_HOST
+    SENTRY_ORGANIZATION_SLUG
+    SENTRY_PROJECT_NAME
+    SENTRY_PROJECT_SLUG
+    SENTRY_TEAM_SLUG
+
+If you need to further configure the Sentry SDK also set this in Django settings:
+
+::
+
+    SENTRY_SDK_KWARGS
 
 .. _pyscaffold-notes:
 
