@@ -3,7 +3,7 @@ import time
 
 import httpx
 
-from src.coco.dev.django_sentry.settings_helpers import settings_or_environment
+from coco.dev.django_sentry.settings_helpers import settings_or_environment
 
 log = logging.getLogger(__name__)
 

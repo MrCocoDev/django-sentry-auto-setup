@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
-from src.coco.dev.django_sentry.signals import on_ready
+from coco.dev.django_sentry.signals import on_ready
 
 
 class AutomaticSentryConfig(AppConfig):
